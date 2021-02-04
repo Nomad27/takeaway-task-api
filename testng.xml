@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Takeaway" parallel="false">
+
+	<test name="taskapi">
+		<classes>
+		   <class name="com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration"/>
+            <class name="com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks"/>
+            <class name="com.kumar.ritu.takeaway.testcases.GetOpsAllTask"/>
+          <class name="com.kumar.ritu.takeaway.testcases.DeleteOpsTask"/>
+		</classes>
+	</test>
+
+</suite>

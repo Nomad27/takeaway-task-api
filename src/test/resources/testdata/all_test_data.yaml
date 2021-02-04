@@ -1,0 +1,8 @@
+!!com.kumar.ritu.takeaway.data.yaml.AllTestCaseData
+allTestCaseDataMap:
+  registerUserTest:
+  - !!com.kumar.ritu.takeaway.data.yaml.YamlTestDataForAPI1 {name: Test1,email: Test1@test.com, password: Test12345,password_confirmation: Test12345}
+  createTaskTest:
+  - !!com.kumar.ritu.takeaway.data.yaml.YamlTestDataForAPI2 {title: Test data is data which has been specifically identified for use in tests}
+  - !!com.kumar.ritu.takeaway.data.yaml.YamlTestDataForAPI2 {title: Which has been specifically identified for use in tests}
+  - !!com.kumar.ritu.takeaway.data.yaml.YamlTestDataForAPI2 {title: Identified for use in tests}

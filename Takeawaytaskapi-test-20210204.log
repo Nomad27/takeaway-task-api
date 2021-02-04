@@ -1,0 +1,286 @@
+2021-02-04 18:36:19.899 [main] INFO  com.testcases.GetOpsUserRegistration - Register the user with credentials {"name":"Test1","email":"Test1@test.com","password":"Test12345","password_confirmation":"Test12345"} .
+2021-02-04 18:36:19.905 [main] INFO  com.testcases.GetOpsUserRegistration - Call the function userRegistration and pass the parameters. 
+2021-02-04 18:36:28.429 [main] INFO  com.testcases.GetOpsUserRegistration - userRegistration method returns the Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvcmVnaXN0ZXIiLCJpYXQiOjE2MTI0NjAxODcsImV4cCI6MTYxMjQ2Mzc4NywibmJmIjoxNjEyNDYwMTg3LCJqdGkiOiJsdlNDWmtiUnptbm1WYkVpIiwic3ViIjoxMTc2LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.z64N9CpEwRnlB7fClVVIFi01bcKSSg0OSPxJeln5YAY  
+2021-02-04 18:36:28.430 [main] INFO  com.testcases.GetOpsUserRegistration - userRegistration method returns the user Id  1176 .
+2021-02-04 18:36:28.441 [main] INFO  com.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:36:34.552 [main] INFO  com.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:36:34.552 [main] INFO  com.testcases.PostOpsCreateTasks - Method return : Task tile - Test data is data which has been specifically identified for use in tests .
+2021-02-04 18:36:34.552 [main] INFO  com.testcases.PostOpsCreateTasks - Task Id - 1322 .
+2021-02-04 18:36:34.553 [main] INFO  com.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:36:34.555 [main] INFO  com.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:36:40.101 [main] INFO  com.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:36:40.101 [main] INFO  com.testcases.PostOpsCreateTasks - Method return : Task tile - Which has been specifically identified for use in tests .
+2021-02-04 18:36:40.102 [main] INFO  com.testcases.PostOpsCreateTasks - Task Id - 1323 .
+2021-02-04 18:36:40.102 [main] INFO  com.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:36:40.105 [main] INFO  com.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:36:42.641 [main] INFO  com.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:36:42.641 [main] INFO  com.testcases.PostOpsCreateTasks - Method return : Task tile - Identified for use in tests .
+2021-02-04 18:36:42.641 [main] INFO  com.testcases.PostOpsCreateTasks - Task Id - 1324 .
+2021-02-04 18:36:42.641 [main] INFO  com.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:36:42.900 [main] INFO  com.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 18:36:42.901 [main] INFO  com.testcases.GetOpsAllTask - Fetch all the task created by the user {} .
+2021-02-04 18:36:42.901 [main] INFO  com.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 200 OK
+2021-02-04 18:36:42.901 [main] INFO  com.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 18:36:42.901 [main] INFO  com.testcases.GetOpsAllTask - Task title is Test data is data which has been specifically identified for use in tests
+2021-02-04 18:36:42.901 [main] INFO  com.testcases.GetOpsAllTask - Task Id  is 1322
+2021-02-04 18:36:42.902 [main] INFO  com.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:36:42.902 [main] INFO  com.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:36:42.902 [main] INFO  com.testcases.GetOpsAllTask - Task author id is 1176
+2021-02-04 18:36:42.902 [main] INFO  com.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:36:42.902 [main] INFO  com.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:36:42.903 [main] INFO  com.testcases.GetOpsAllTask - Task title is Which has been specifically identified for use in tests
+2021-02-04 18:36:42.903 [main] INFO  com.testcases.GetOpsAllTask - Task Id  is 1323
+2021-02-04 18:36:42.903 [main] INFO  com.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:36:42.904 [main] INFO  com.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:36:42.904 [main] INFO  com.testcases.GetOpsAllTask - Task author id is 1176
+2021-02-04 18:36:42.904 [main] INFO  com.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:36:42.904 [main] INFO  com.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:36:42.905 [main] INFO  com.testcases.GetOpsAllTask - Task title is Identified for use in tests
+2021-02-04 18:36:42.905 [main] INFO  com.testcases.GetOpsAllTask - Task Id  is 1324
+2021-02-04 18:36:42.905 [main] INFO  com.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:36:42.906 [main] INFO  com.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:36:42.906 [main] INFO  com.testcases.GetOpsAllTask - Task author id is 1176
+2021-02-04 18:36:42.906 [main] INFO  com.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:36:42.906 [main] INFO  com.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:36:42.909 [main] INFO  com.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 18:36:45.739 [main] INFO  com.testcases.DeleteOpsTask - Response status message is  HTTP/1.1 204 No Content
+2021-02-04 18:51:38.560 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 18:51:38.566 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user {} .
+2021-02-04 18:51:38.567 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 401 Unauthorized
+2021-02-04 18:51:38.567 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 18:51:38.596 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 18:53:16.307 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 18:53:16.312 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user {} .
+2021-02-04 18:53:16.312 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 401 Unauthorized
+2021-02-04 18:53:16.312 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 18:53:16.344 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 18:54:28.599 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Register the user with credentials {"name":"Test1","email":"Test1@test.com","password":"Test12345","password_confirmation":"Test12345"} .
+2021-02-04 18:54:28.606 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Call the function userRegistration and pass the parameters. 
+2021-02-04 18:54:37.332 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvcmVnaXN0ZXIiLCJpYXQiOjE2MTI0NjEyNzYsImV4cCI6MTYxMjQ2NDg3NiwibmJmIjoxNjEyNDYxMjc2LCJqdGkiOiJLOHVXV0daU09ldUpKSGFWIiwic3ViIjoxMTc3LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.bR8QONWj6PnGSfLvg-yBraAjkJBcT3TXNd-N23g-JgU  
+2021-02-04 18:54:37.332 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the user Id  1177 .
+2021-02-04 18:54:37.344 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:54:43.615 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:54:43.616 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Test data is data which has been specifically identified for use in tests .
+2021-02-04 18:54:43.616 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1325 .
+2021-02-04 18:54:43.616 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:54:43.618 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:54:49.063 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:54:49.063 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Which has been specifically identified for use in tests .
+2021-02-04 18:54:49.064 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1326 .
+2021-02-04 18:54:49.064 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:54:49.067 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:54:51.666 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:54:51.666 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Identified for use in tests .
+2021-02-04 18:54:51.667 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1327 .
+2021-02-04 18:54:51.667 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:54:51.938 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 18:54:51.939 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user {} .
+2021-02-04 18:54:51.939 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 200 OK
+2021-02-04 18:54:51.939 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 18:54:51.939 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Test data is data which has been specifically identified for use in tests
+2021-02-04 18:54:51.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1325
+2021-02-04 18:54:51.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:54:51.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:54:51.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1177
+2021-02-04 18:54:51.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:54:51.941 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:54:51.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Which has been specifically identified for use in tests
+2021-02-04 18:54:51.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1326
+2021-02-04 18:54:51.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:54:51.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:54:51.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1177
+2021-02-04 18:54:51.943 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:54:51.943 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:54:51.944 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Identified for use in tests
+2021-02-04 18:54:51.944 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1327
+2021-02-04 18:54:51.944 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:54:51.944 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:54:51.944 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1177
+2021-02-04 18:54:51.945 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:54:51.945 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:54:51.947 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 18:54:54.761 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Response status message is  HTTP/1.1 204 No Content
+2021-02-04 18:58:58.774 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Register the user with credentials {"name":"Test1","email":"Test1@test.com","password":"Test12345","password_confirmation":"Test12345"} .
+2021-02-04 18:58:58.779 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Call the function userRegistration and pass the parameters. 
+2021-02-04 18:59:08.090 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvcmVnaXN0ZXIiLCJpYXQiOjE2MTI0NjE1NDYsImV4cCI6MTYxMjQ2NTE0NiwibmJmIjoxNjEyNDYxNTQ2LCJqdGkiOiJLbm50UlpiaU9nMDVKY1NjIiwic3ViIjoxMTc4LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.cn_IZ86rQeqbQgP8pJm2OtCb1d5eM44WOi1bvJ_FLvY  
+2021-02-04 18:59:08.090 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the user Id  1178 .
+2021-02-04 18:59:08.104 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:59:14.540 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:59:14.540 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Test data is data which has been specifically identified for use in tests .
+2021-02-04 18:59:14.540 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1328 .
+2021-02-04 18:59:14.541 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:59:14.543 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:59:20.245 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:59:20.245 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Which has been specifically identified for use in tests .
+2021-02-04 18:59:20.245 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1329 .
+2021-02-04 18:59:20.246 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:59:20.248 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 18:59:22.806 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 18:59:22.806 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Identified for use in tests .
+2021-02-04 18:59:22.806 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1330 .
+2021-02-04 18:59:22.807 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 18:59:25.137 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 18:59:25.137 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user {} .
+2021-02-04 18:59:25.137 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 200 OK
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Test data is data which has been specifically identified for use in tests
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1328
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1178
+2021-02-04 18:59:25.138 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:59:25.139 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:59:25.140 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Which has been specifically identified for use in tests
+2021-02-04 18:59:25.140 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1329
+2021-02-04 18:59:25.140 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:59:25.140 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:59:25.140 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1178
+2021-02-04 18:59:25.140 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:59:25.141 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Identified for use in tests
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1330
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1178
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 18:59:25.142 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 18:59:25.145 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 18:59:25.954 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Response status message is  HTTP/1.1 204 No Content
+2021-02-04 19:03:11.557 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Register the user with credentials {"name":"Test1","email":"Test1@test.com","password":"Test12345","password_confirmation":"Test12345"} .
+2021-02-04 19:03:11.562 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Call the function userRegistration and pass the parameters. 
+2021-02-04 19:03:20.297 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvcmVnaXN0ZXIiLCJpYXQiOjE2MTI0NjE3OTksImV4cCI6MTYxMjQ2NTM5OSwibmJmIjoxNjEyNDYxNzk5LCJqdGkiOiIwTXhhNFhyVnB4SFI1VDRuIiwic3ViIjoxMTc5LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.I9zSEIizuWRbMpwp7mqL5VcmWDx1twJS08wMFQECzF4  
+2021-02-04 19:03:20.298 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the user Id  1179 .
+2021-02-04 19:03:20.310 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:03:26.754 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:03:26.754 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Test data is data which has been specifically identified for use in tests .
+2021-02-04 19:03:26.755 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1331 .
+2021-02-04 19:03:26.755 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:03:26.757 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:03:32.159 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:03:32.159 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Which has been specifically identified for use in tests .
+2021-02-04 19:03:32.160 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1332 .
+2021-02-04 19:03:32.160 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:03:32.163 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:03:34.675 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:03:34.675 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Identified for use in tests .
+2021-02-04 19:03:34.675 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1333 .
+2021-02-04 19:03:34.676 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:03:34.936 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 19:03:34.937 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user.
+2021-02-04 19:03:34.937 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 200 OK
+2021-02-04 19:03:34.937 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 19:03:34.937 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Test data is data which has been specifically identified for use in tests
+2021-02-04 19:03:34.938 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1331
+2021-02-04 19:03:34.938 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:03:34.938 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:03:34.938 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1179
+2021-02-04 19:03:34.938 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:03:34.939 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:03:34.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Which has been specifically identified for use in tests
+2021-02-04 19:03:34.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1332
+2021-02-04 19:03:34.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:03:34.940 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:03:34.941 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1179
+2021-02-04 19:03:34.941 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:03:34.941 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:03:34.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Identified for use in tests
+2021-02-04 19:03:34.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1333
+2021-02-04 19:03:34.942 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:03:34.943 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:03:34.943 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1179
+2021-02-04 19:03:34.943 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:03:34.943 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:03:34.946 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 19:03:37.646 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Response status message is  HTTP/1.1 204 No Content
+2021-02-04 19:04:49.958 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Register the user with credentials {"name":"Test1","email":"Test1@test.com","password":"Test12345","password_confirmation":"Test12345"} .
+2021-02-04 19:04:49.964 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Call the function userRegistration and pass the parameters. 
+2021-02-04 19:04:56.108 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvcmVnaXN0ZXIiLCJpYXQiOjE2MTI0NjE4OTQsImV4cCI6MTYxMjQ2NTQ5NCwibmJmIjoxNjEyNDYxODk0LCJqdGkiOiJ5RlZSeWNLeFpMVU1kTXNXIiwic3ViIjoxMTgwLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.CX1mvXAphHbDF44JA6grFH9xaa2BjP0sKu_q1KZr1ZI  
+2021-02-04 19:04:56.108 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the user Id  1180 .
+2021-02-04 19:04:56.122 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:04:58.951 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:04:58.952 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Test data is data which has been specifically identified for use in tests .
+2021-02-04 19:04:58.952 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1334 .
+2021-02-04 19:04:58.953 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:04:58.955 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:05:04.838 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:05:04.839 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Which has been specifically identified for use in tests .
+2021-02-04 19:05:04.839 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1335 .
+2021-02-04 19:05:04.840 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:05:04.842 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:05:07.613 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:05:07.614 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Identified for use in tests .
+2021-02-04 19:05:07.614 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1336 .
+2021-02-04 19:05:07.614 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:05:07.886 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 19:05:07.886 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user.
+2021-02-04 19:05:07.887 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 200 OK
+2021-02-04 19:05:07.887 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 19:05:07.887 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Test data is data which has been specifically identified for use in tests
+2021-02-04 19:05:07.887 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1334
+2021-02-04 19:05:07.888 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:05:07.888 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:05:07.888 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1180
+2021-02-04 19:05:07.888 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:05:07.888 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:05:07.889 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Which has been specifically identified for use in tests
+2021-02-04 19:05:07.890 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1335
+2021-02-04 19:05:07.890 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:05:07.890 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:05:07.890 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1180
+2021-02-04 19:05:07.890 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:05:07.891 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:05:07.892 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Identified for use in tests
+2021-02-04 19:05:07.892 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1336
+2021-02-04 19:05:07.892 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:05:07.892 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:05:07.892 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1180
+2021-02-04 19:05:07.892 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:05:07.893 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:05:07.895 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 19:05:10.772 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Response status message is  HTTP/1.1 204 No Content
+2021-02-04 19:06:42.037 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Register the user with credentials {"name":"Test1","email":"Test1@test.com","password":"Test12345","password_confirmation":"Test12345"} .
+2021-02-04 19:06:42.043 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - Call the function userRegistration and pass the parameters. 
+2021-02-04 19:06:47.844 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvcmVnaXN0ZXIiLCJpYXQiOjE2MTI0NjIwMDYsImV4cCI6MTYxMjQ2NTYwNiwibmJmIjoxNjEyNDYyMDA2LCJqdGkiOiJzZ2xtRzZud1FqWlM0OTcyIiwic3ViIjoxMTgxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.88X1QTL5K9k0EwWCICXUDcKoF-CpFAZxXHyXBPK775k  
+2021-02-04 19:06:47.844 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsUserRegistration - userRegistration method returns the user Id  1181 .
+2021-02-04 19:06:47.857 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:06:54.186 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:06:54.186 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Test data is data which has been specifically identified for use in tests .
+2021-02-04 19:06:54.187 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1337 .
+2021-02-04 19:06:54.187 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:06:54.189 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:06:59.710 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:06:59.711 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Which has been specifically identified for use in tests .
+2021-02-04 19:06:59.711 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1338 .
+2021-02-04 19:06:59.711 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:06:59.714 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Call the method createTasks and send the parameters: .
+2021-02-04 19:07:02.227 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Response status message is  HTTP/1.1 201 Created
+2021-02-04 19:07:02.228 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Method return : Task tile - Identified for use in tests .
+2021-02-04 19:07:02.228 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task Id - 1339 .
+2021-02-04 19:07:02.228 [main] INFO  com.kumar.ritu.takeaway.testcases.PostOpsCreateTasks - Task created by Test1.
+2021-02-04 19:07:04.501 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Call the function getAllTaskOfUser. 
+2021-02-04 19:07:04.501 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Fetch all the task created by the user.
+2021-02-04 19:07:04.502 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Response status message is  HTTP/1.1 200 OK
+2021-02-04 19:07:04.502 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task lists are : 
+2021-02-04 19:07:04.502 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Test data is data which has been specifically identified for use in tests
+2021-02-04 19:07:04.502 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1337
+2021-02-04 19:07:04.503 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:07:04.503 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:07:04.503 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1181
+2021-02-04 19:07:04.503 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:07:04.503 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:07:04.504 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Which has been specifically identified for use in tests
+2021-02-04 19:07:04.505 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1338
+2021-02-04 19:07:04.505 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:07:04.505 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:07:04.505 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1181
+2021-02-04 19:07:04.505 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:07:04.505 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:07:04.506 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task title is Identified for use in tests
+2021-02-04 19:07:04.507 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task Id  is 1339
+2021-02-04 19:07:04.507 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task due at is null
+2021-02-04 19:07:04.507 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task is completed false
+2021-02-04 19:07:04.507 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author id is 1181
+2021-02-04 19:07:04.507 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author name is Test1
+2021-02-04 19:07:04.507 [main] INFO  com.kumar.ritu.takeaway.testcases.GetOpsAllTask - Task author email is Test1@test.com
+2021-02-04 19:07:04.510 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Delete User's all tasks
+2021-02-04 19:07:07.422 [main] INFO  com.kumar.ritu.takeaway.testcases.DeleteOpsTask - Response status message is  HTTP/1.1 204 No Content
