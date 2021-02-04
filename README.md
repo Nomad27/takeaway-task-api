@@ -5,7 +5,7 @@
 4. Test Data is kept in a YAML file rather json, excel, csv etc. Yaml gives huge advantages over other format in terms of readability, code minimization, maintenance
 
 ## Project Configuration Steps ##
-	1.Clone this repository [CLONE] (https://github.com/Nomad27/mobiquity.git)
+	1.Clone this repository [CLONE] (https://github.com/Nomad27/takeaway-task-api.git)   'git clone https://github.com/Nomad27/takeaway-task-api.git'
 	2.Run 'mvn clean test'
 	3.Location of report (/target/taskapi_report.html").Reports will be in HTML format here.
 
